@@ -2,11 +2,12 @@
 {% load account %}
 {% block content %}
 
-<h1>Dispatch 101</h1>
+<h1>Me Site 101</h1>
 
 
-<a href="{% url "account_login" %}">Login</a>
-<a href="{% url "account_logout" %}">Logout</a>
+<a href="{% url "account_login" %}">Login</a> |
+<a href="{% url "account_logout" %}">Logout</a> |
+<a href="{% url "control_center" %}">Control Center</a> |
 
 {% user_display user %}
 

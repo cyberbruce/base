@@ -147,8 +147,7 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 LOGIN_REDIRECT_URL = '/'
-LOGIN_URL = 'accounts/login/'
-# LOGIN_REDIRECT_URL = 'accounts/login/'
+LOGIN_URL = '/accounts/login/'
 LOGOUT_REDIRECT_URL = '/'
 
 # Provider specific settings
